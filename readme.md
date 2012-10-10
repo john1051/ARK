@@ -1,7 +1,7 @@
 ARk
 ============================
 Integrantes <br/>
-Alejandra Holguin Ramirez
+Alejandro Holguin Ramirez
 Jhon Edison Echeverri Pedroza
 
 Revisores <br/>
