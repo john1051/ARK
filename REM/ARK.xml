@@ -456,7 +456,7 @@ Inico</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:fileName>
-<![CDATA[..\..\..\Documents\GitHub\Analisis\Analisis\REM\Inico Ark.png]]>
+<![CDATA[.\Inico Ark.png]]>
 </rem:fileName>
 </rem:graphicFile>
 </rem:section>
@@ -497,7 +497,7 @@ Options</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:fileName>
-<![CDATA[..\..\..\Documents\GitHub\Analisis\Analisis\REM\options.png]]>
+<![CDATA[.\options.png]]>
 </rem:fileName>
 </rem:graphicFile>
 </rem:section>
@@ -538,7 +538,7 @@ Tools</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:fileName>
-<![CDATA[..\..\..\Documents\GitHub\Analisis\Analisis\REM\tools.png]]>
+<![CDATA[.\tools.png]]>
 </rem:fileName>
 </rem:graphicFile>
 </rem:section>
@@ -579,7 +579,7 @@ Tape</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:fileName>
-<![CDATA[..\..\..\Documents\GitHub\Analisis\Analisis\REM\tape.png]]>
+<![CDATA[.\tape.png]]>
 </rem:fileName>
 </rem:graphicFile>
 </rem:section>
@@ -620,7 +620,7 @@ ARK</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:fileName>
-<![CDATA[..\..\..\Documents\GitHub\Analisis\Analisis\REM\ARK.png]]>
+<![CDATA[.\ARK.png]]>
 </rem:fileName>
 </rem:graphicFile>
 </rem:section>
