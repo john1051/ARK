@@ -17,6 +17,8 @@ xmlns:rem="http://rem.lsi.us.es">
 <rem:comments>
 Ninguno
 </rem:comments>
+	 <rem:preparedFor organizations = "ORG-0002 ORG-0004 "/>
+	 <rem:preparedBy organizations = "ORG-0001 ORG-0003 "/>
 <rem:section
  oid = "SEC-0011">
 <rem:name>
@@ -37,7 +39,7 @@ Ninguno</rem:comments>
 <rem:organization
  oid = "ORG-0001">
 <rem:name>
-Ark</rem:name>
+John Edison Echeverri Pedroza</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -47,11 +49,13 @@ Ark</rem:name>
 <rem:day>18</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
+<rem:sources stakeholders ="STK-0001 "/>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:address>Calle 23 #12-45</rem:address>
-<rem:telephone>555 1234</rem:telephone>
-<rem:fax>555 1235</rem:fax>
+<rem:address>Calle 49#33-52</rem:address>
+<rem:telephone>2167177</rem:telephone>
+<rem:fax></rem:fax>
 </rem:organization>
 <rem:organization
  oid = "ORG-0002">
@@ -71,6 +75,48 @@ Ninguno</rem:comments>
 <rem:address> Calle 73 No. 73A - 226</rem:address>
 <rem:telephone>PBX (+57 4) 448 0520</rem:telephone>
 <rem:fax>Fax: (+57 4) 493 6363</rem:fax>
+</rem:organization>
+<rem:organization
+ oid = "ORG-0003">
+<rem:name>
+Alejandro Holguin Ramirez</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>10</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0002 "/>
+<rem:sources stakeholders ="STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:address>Cra96A #64ff-37</rem:address>
+<rem:telephone>4384875</rem:telephone>
+<rem:fax></rem:fax>
+</rem:organization>
+<rem:organization
+ oid = "ORG-0004">
+<rem:name>
+Sorey Garcia</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>10</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0003 "/>
+<rem:sources stakeholders ="STK-0003 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:address>http://soreygarcia.me/</rem:address>
+<rem:telephone></rem:telephone>
+<rem:fax></rem:fax>
 </rem:organization>
 </rem:section>
 <rem:section
@@ -104,6 +150,7 @@ John Edison Echeverri Pedroza</rem:name>
 </rem:date>
 </rem:version>
 <rem:authors stakeholders ="STK-0001 "/>
+<rem:sources stakeholders ="STK-0001 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:stakeholderRole>Analista Funcional</rem:stakeholderRole>
@@ -115,7 +162,7 @@ Ninguno</rem:comments>
 <rem:stakeholder
  oid = "STK-0002">
 <rem:name>
-Alejandro Holguien</rem:name>
+Alejandro Holguin Ramirez</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -125,10 +172,34 @@ Alejandro Holguien</rem:name>
 <rem:day>18</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0002 "/>
+<rem:sources stakeholders ="STK-0002 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:stakeholderRole>Analista Funcional</rem:stakeholderRole>
 <rem:isDeveloper/>
+<rem:isUser/>
+<rem:worksFor organization = "ORG-0002"/>
+</rem:stakeholder>
+<rem:stakeholder
+ oid = "STK-0003">
+<rem:name>
+Sorey Garcia</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>10</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0003 "/>
+<rem:sources stakeholders ="STK-0003 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:stakeholderRole>Directoria De Proyecto</rem:stakeholderRole>
+<rem:isCustomer/>
 <rem:isUser/>
 <rem:worksFor organization = "ORG-0002"/>
 </rem:stakeholder>
@@ -205,40 +276,16 @@ Ninguno</rem:comments>
 <rem:level>2</rem:level>
 <rem:number>3.2 </rem:number>
 <rem:objective
- oid = "OBJ-0001">
-<rem:name>
-Evitar la monotonia</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2012</rem:year>
-<rem:month>9</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0002 "/>
-<rem:sources stakeholders ="STK-0001 STK-0002 "/>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:importance value = "IMV-0003"/>
-<rem:urgency value = "URV-0002"/>
-<rem:status value = "STV-0004"/>
-<rem:stability value = "SBV-0004"/>
-<rem:description>
-CAMBIAR LA MONOTONIA DE LAS PERSONAS, TANTO EN SUS CASA COMO EN SUS TRABAJOS  ENVIANDOLES FRASES QUE VAN DESDE AMOR HASTA UNA BUENA RECETA PARA COSINAR.</rem:description>
-</rem:objective>
-<rem:objective
  oid = "OBJ-0002">
 <rem:name>
-Buena Opcion</rem:name>
+Incentivar</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2012</rem:year>
-<rem:month>9</rem:month>
-<rem:day>18</rem:day>
+<rem:month>10</rem:month>
+<rem:day>9</rem:day>
 </rem:date>
 </rem:version>
 <rem:authors stakeholders ="STK-0001 STK-0002 "/>
@@ -250,31 +297,55 @@ Ninguno</rem:comments>
 <rem:status value = "STV-0004"/>
 <rem:stability value = "SBV-0004"/>
 <rem:description>
-DAR UNA BUENA OPCION PARA AQUELLOS AMANTES DE LA POESIA.</rem:description>
+Incentivar a los clientes el uso de la lectura diaria, tanto en ninos, jovenes y adultos.</rem:description>
 </rem:objective>
 <rem:objective
- oid = "OBJ-0003">
+ oid = "OBJ-0001">
 <rem:name>
-Recetas</rem:name>
+Dispositivo Movil</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2012</rem:year>
-<rem:month>9</rem:month>
-<rem:day>18</rem:day>
+<rem:month>10</rem:month>
+<rem:day>9</rem:day>
 </rem:date>
 </rem:version>
 <rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0001 STK-0002 "/>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:importance value = "IMV-0004"/>
+<rem:importance value = "IMV-0003"/>
 <rem:urgency value = "URV-0004"/>
 <rem:status value = "STV-0004"/>
 <rem:stability value = "SBV-0003"/>
 <rem:description>
-INFORMAR  AQUELLOS AMANTES DEL BUEN SABOR SOBRE UNA BUENA RECETA</rem:description>
+Permitir a los usuarios leer la informacion enviada a sus dispositivos moviles con los mensajes solicitados.</rem:description>
+</rem:objective>
+<rem:objective
+ oid = "OBJ-0003">
+<rem:name>
+Lectura Movil</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>10</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0004"/>
+<rem:status value = "STV-0004"/>
+<rem:stability value = "SBV-0003"/>
+<rem:description>
+Usar los dispositivos moviles para el uso de la lectura diaria, y  promover la lectura como un habito de buena salud.</rem:description>
 </rem:objective>
 </rem:section>
 <rem:section
@@ -311,7 +382,7 @@ Lista de caracteristicas</rem:name>
 <rem:sources stakeholders ="STK-0001 STK-0002 "/>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Clienta<br/>- Administrar clientes. El sistema permitira resgistrar, actualizar, borrar, consultar los clientes.<br/><br/>Prestamos<br/>-Registrar prestamo: El sistema permitira registrar las peliculas que fueron alquiladas a un cliente<br/>-Registrar devolucion: El sistema permitira verificar las peliculas asociadas a un prestamo para comprobar que se encuentran completas y registrar su fecha de devolucion.<br/>-Calcular multas: Al momento de registrar una devolucion se debera calcular el valor de la multa de acuerdo al valor establecido por dia y el numero de dias por retraso.<br/><br/>Domicilios<br/>-Realizar pedido: El sistema permitira relizar prestamos a traves de un dispositivo movil</rem:text>
+<rem:text>Configuraciòn:<br/>-Registrar Informaciòn: El sistema debera permitir que el usuario ingrese la fecha, la hora, tipo de frase y estado.<br/><br/>Frase:<br/>-Eliminar y/o Guardar frase:El sistema permitirá cada vez que se ingrese una frase almacenarla o suprimirla de la aplicaciòn movil.<br/>-Editar frase:Permite modificar informacion ya ingresada a la aplicacion acerca de la frase.<br/>-Seleccionar tipo de frase:El sistema permitirá hacer la elección de la frase que desea.</rem:text>
 </rem:paragraph>
 </rem:section>
 <rem:section
@@ -351,7 +422,7 @@ Ninguno</rem:comments>
 <rem:section
  oid = "SEC-0014">
 <rem:name>
-Iniciar Seccion</rem:name>
+Inicio</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -361,6 +432,8 @@ Iniciar Seccion</rem:name>
 <rem:day>18</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:level>4</rem:level>
@@ -368,20 +441,186 @@ Ninguno</rem:comments>
 <rem:graphicFile
  oid = "GRF-0001">
 <rem:name>
-i</rem:name>
+Inico</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2012</rem:year>
-<rem:month>9</rem:month>
-<rem:day>18</rem:day>
+<rem:month>10</rem:month>
+<rem:day>9</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:fileName>
-<![CDATA[.\rect2987.png]]>
+<![CDATA[..\..\..\Documents\GitHub\Analisis\Analisis\REM\Inico Ark.png]]>
+</rem:fileName>
+</rem:graphicFile>
+</rem:section>
+<rem:section
+ oid = "SEC-0015">
+<rem:name>
+Options</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>10</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>4</rem:level>
+<rem:number>3.4.1.2 </rem:number>
+<rem:graphicFile
+ oid = "GRF-0002">
+<rem:name>
+Options</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>10</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:fileName>
+<![CDATA[..\..\..\Documents\GitHub\Analisis\Analisis\REM\options.png]]>
+</rem:fileName>
+</rem:graphicFile>
+</rem:section>
+<rem:section
+ oid = "SEC-0016">
+<rem:name>
+Tools</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>10</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>4</rem:level>
+<rem:number>3.4.1.3 </rem:number>
+<rem:graphicFile
+ oid = "GRF-0003">
+<rem:name>
+Tools</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>10</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:fileName>
+<![CDATA[..\..\..\Documents\GitHub\Analisis\Analisis\REM\tools.png]]>
+</rem:fileName>
+</rem:graphicFile>
+</rem:section>
+<rem:section
+ oid = "SEC-0017">
+<rem:name>
+Tape</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>10</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>4</rem:level>
+<rem:number>3.4.1.4 </rem:number>
+<rem:graphicFile
+ oid = "GRF-0004">
+<rem:name>
+Tape</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>10</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:fileName>
+<![CDATA[..\..\..\Documents\GitHub\Analisis\Analisis\REM\tape.png]]>
+</rem:fileName>
+</rem:graphicFile>
+</rem:section>
+<rem:section
+ oid = "SEC-0018">
+<rem:name>
+ARK</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>10</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>4</rem:level>
+<rem:number>3.4.1.5 </rem:number>
+<rem:graphicFile
+ oid = "GRF-0005">
+<rem:name>
+ARK</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>10</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:fileName>
+<![CDATA[..\..\..\Documents\GitHub\Analisis\Analisis\REM\ARK.png]]>
 </rem:fileName>
 </rem:graphicFile>
 </rem:section>
@@ -473,6 +712,8 @@ Glosario</rem:name>
 <rem:day>18</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:level>1</rem:level>
@@ -491,10 +732,69 @@ Ninguno</rem:comments>
 </rem:date>
 </rem:version>
 <rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:text>Modelo,patrón:<br/>el jefe nos da las <rem:ref oid="GLO-0002">pautas</rem:ref> y nosotros desarrollamos los proyectos.<br/>Norma de conducta:<br/>la sinceridad es su pauta de comportamiento.</rem:text>
 </rem:glossaryItem>
+</rem:section>
+<rem:section
+ oid = "SEC-0019">
+<rem:name>
+Agradecimientos</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>10</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>1</rem:level>
+<rem:number>6 </rem:number>
+<rem:paragraph
+ oid = "PRG-0004">
+<rem:name>
+Agradecimientos</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>10</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 STK-0003 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Agradecimientos a la pagina The noun Proyect por su  prestacion de servicios.<br/><br/>www.The Noun Proyect.com</rem:text>
+</rem:paragraph>
+<rem:paragraph
+ oid = "PRG-0005">
+<rem:name>
+Autores</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>10</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 STK-0003 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Agradecimientos a todos los autores de The Noun Proyect, por sus disenos. Y permitirnos utilizarlas.<br/><br/>http://thenounproject.com/noun/notebook/#icon-No2222<br/>http://thenounproject.com/noun/sd-card/#icon-No3584<br/>http://thenounproject.com/noun/trash-can/#icon-No3058<br/>http://thenounproject.com/noun/heart/#icon-No5133<br/>http://thenounproject.com/noun/friends/#icon-No3359<br/>http://thenounproject.com/noun/spoon/#icon-No2519<br/>http://thenounproject.com/noun/broken-heart/#icon-No821<br/>http://thenounproject.com/noun/sad/#icon-No3028</rem:text>
+</rem:paragraph>
 </rem:section>
 </rem:c_requirementsSpecification>
 <rem:d_requirementsSpecification oid = "DRS-0002">
