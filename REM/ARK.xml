@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-8859-1" ?>
-<!DOCTYPE rem:requirementsProject SYSTEM "C:\Program Files (x86)\REM 1.2.2\xml\REM_1_2_2.dtd">
+<!DOCTYPE rem:requirementsProject SYSTEM "D:\Archivos de programa\REM 1.2.2\xml\REM_1_2_2.dtd">
 <rem:requirementsProject
 xmlns:rem="http://rem.lsi.us.es">
 <rem:name>ARK</rem:name>
@@ -255,7 +255,7 @@ Contexto de Operaciones</rem:name>
 <rem:sources stakeholders ="STK-0001 STK-0002 "/>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>La aplicacion Ark, busca enfatizar la lectura atravez de los dipositivos, y asi lograr una adecuada educacion en ninos y jovenes.<br/><br/>Cuando un cliente descarga la aplicacion, puede configurarla a gusto propio.<br/>Tiene una opcion de encendido y apagado,para ocaciones expeciales como reuniones o miesntras conducen, o a propio gusto del cliente.</rem:text>
+<rem:text>La aplicacion Ark, busca enfatizar la lectura atravès de los dipositivos moviles, y asi lograr una adecuada educacion en niños y jovenes.<br/><br/>Cuando un cliente descarga la aplicacion, puede configurarla a gusto propio.<br/>Tiene una opcion de encendido y apagado,para ocaciones especiales como reuniones o mientras conducen, o a propio gusto del cliente.</rem:text>
 </rem:paragraph>
 </rem:section>
 <rem:section
@@ -661,6 +661,168 @@ Funcionales</rem:name>
 Ninguno</rem:comments>
 <rem:level>2</rem:level>
 <rem:number>4.1 </rem:number>
+<rem:section
+ oid = "SEC-0020">
+<rem:name>
+Dispositivo Movil</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>10</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>3</rem:level>
+<rem:number>4.1.1 </rem:number>
+<rem:functionalRequirement
+ oid = "FRQ-0005">
+<rem:name>
+Seleccionar Tipo de Frase</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>10</rem:month>
+<rem:day>16</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0003 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0004"/>
+<rem:stability value = "SBV-0004"/>
+<rem:description>
+Permitir que el usuario elija las frases que desea recibir </rem:description>
+</rem:functionalRequirement>
+<rem:functionalRequirement
+ oid = "FRQ-0001">
+<rem:name>
+Agregar Receta</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>10</rem:month>
+<rem:day>16</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0003 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0004"/>
+<rem:stability value = "SBV-0004"/>
+<rem:description>
+Permitir agregar los datos particulares de una receta</rem:description>
+</rem:functionalRequirement>
+<rem:functionalRequirement
+ oid = "FRQ-0002">
+<rem:name>
+Editar Frase</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>10</rem:month>
+<rem:day>16</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0003 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0004"/>
+<rem:stability value = "SBV-0004"/>
+<rem:description>
+Permitir que el usuario escriba la frase que desea<br/></rem:description>
+</rem:functionalRequirement>
+<rem:functionalRequirement
+ oid = "FRQ-0003">
+<rem:name>
+Eliminar Frase</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>10</rem:month>
+<rem:day>16</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0003 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0004"/>
+<rem:stability value = "SBV-0004"/>
+<rem:description>
+Permitir que el usuario borre las frases que desee siempre y cuando la tenga almacenada</rem:description>
+</rem:functionalRequirement>
+<rem:functionalRequirement
+ oid = "FRQ-0004">
+<rem:name>
+Añadir Frase</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>10</rem:month>
+<rem:day>16</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0003 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0004"/>
+<rem:stability value = "SBV-0004"/>
+<rem:description>
+Permitir que el usuario almacene la informacion de las frases que ha solicitado</rem:description>
+</rem:functionalRequirement>
+<rem:functionalRequirement
+ oid = "FRQ-0006">
+<rem:name>
+Configurar Fecha y Hora</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>10</rem:month>
+<rem:day>16</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0003 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0004"/>
+<rem:stability value = "SBV-0004"/>
+<rem:description>
+Permitir  oraganizar la fecha y la hora acorde al envio de la frase</rem:description>
+</rem:functionalRequirement>
+</rem:section>
 </rem:section>
 <rem:section
  oid = "SEC-0006">
@@ -679,6 +841,90 @@ De informacion</rem:name>
 Ninguno</rem:comments>
 <rem:level>2</rem:level>
 <rem:number>4.2 </rem:number>
+<rem:informationRequirement
+ oid = "IRQ-0002">
+<rem:name>
+Datos de una frase</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>10</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0003 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0004"/>
+<rem:stability value = "SBV-0004"/>
+<rem:relevantConcept>
+</rem:relevantConcept>
+<rem:averageLifeTime>
+<rem:value>2</rem:value>
+<rem:timeUnit value = "TUV-0002"/>
+</rem:averageLifeTime>
+<rem:maximumLifeTime>
+<rem:value>5</rem:value>
+<rem:timeUnit value = "TUV-0002"/>
+</rem:maximumLifeTime>
+<rem:averageOcurrences><rem:value>250</rem:value>
+</rem:averageOcurrences>
+<rem:maximumOcurrences><rem:value>500</rem:value>
+</rem:maximumOcurrences>
+<rem:specificData oid = "DAT-0004">
+<rem:description>
+Day</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0005">
+<rem:description>
+Month</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0006">
+<rem:description>
+Year</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0012">
+<rem:description>
+Hour</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0008">
+<rem:description>
+Minute</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0009">
+<rem:description>
+Second</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0011">
+<rem:description>
+Type</rem:description>
+<rem:comments>
+ejemplo: amor,reflexion,amistad,recetas,despecho</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0010">
+<rem:description>
+State</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+</rem:informationRequirement>
 </rem:section>
 <rem:section
  oid = "SEC-0007">
@@ -712,8 +958,6 @@ Glosario</rem:name>
 <rem:day>18</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0002 "/>
-<rem:sources stakeholders ="STK-0001 STK-0002 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:level>1</rem:level>
@@ -751,8 +995,6 @@ Agradecimientos</rem:name>
 <rem:day>9</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0002 "/>
-<rem:sources stakeholders ="STK-0001 STK-0002 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:level>1</rem:level>
