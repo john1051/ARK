@@ -24,17 +24,17 @@ namespace ARK
         {
         	/*Frases objFrase = new Frases();
 
-            objFrase.Amistad = txtagregarfrase.Text;  
-            
-        	
-            using (BaseDatosARkDataContext contexto = new BaseDatosARkDataContext(""))
+            objFrase.Amistad = txtagregarfrase.Text;
+
+
+            using (BaseDatosARkDataContext contexto = new BaseDatosARkDataContext(App.cadenaConexion))
             {
                 contexto.Frases.InsertOnSubmit(objFrase);
                 contexto.SubmitChanges();
             }*/
 			int menu=0;
             NavigationService.Navigate(new Uri("/MainPage.xaml?Welcome=" + menu, UriKind.Relative));
-            MessageBox.Show("Configuracion Guardada");
+            MessageBox.Show("Hecho");
 		}
 		
 

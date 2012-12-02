@@ -16,7 +16,7 @@
 	<phone:PhoneApplicationPage.ApplicationBar>
 		<shell:ApplicationBar>
 			<shell:ApplicationBarIconButton x:Name="btnopciones" IconUri="/icons/appbar.feature.settings.rest.png" Text="Configuracion" Click="btnopciones_Click"/>
-			<shell:ApplicationBarIconButton x:Name="btneditar" IconUri="/icons/appbar.edit.rest.png" Text="Agregar" Click="btneditar_Click"/>
+			<shell:ApplicationBarIconButton x:Name="btnagregar" IconUri="/icons/appbar.edit.rest.png" Text="Agregar" Click="btneditar_Click"/>
 		</shell:ApplicationBar>
 	</phone:PhoneApplicationPage.ApplicationBar>
 
@@ -90,7 +90,7 @@
         					</SolidColorBrush.Transform>
         				</SolidColorBrush>
         			</Run.Foreground>
-        		</Run><LineBreak/><Run FontWeight="Bold" FontSize="21.333" FontFamily="Arial" Text="Algunos caminos están unidos">
+        		</Run><LineBreak/><Run FontWeight="Bold" FontSize="18.667" FontFamily="Arial" Text="Algunos caminos están unidos">
         			<Run.Foreground>
         				<SolidColorBrush Color="#FF141416">
         					<SolidColorBrush.RelativeTransform>
@@ -101,7 +101,7 @@
         					</SolidColorBrush.Transform>
         				</SolidColorBrush>
         			</Run.Foreground>
-        		</Run><LineBreak/><Run FontWeight="Bold" FontSize="21.333" FontFamily="Arial" Text="(Pero en diferentes dimensiones)">
+        		</Run><LineBreak/><Run FontWeight="Bold" FontSize="18.667" FontFamily="Arial" Text="(Pero en diferentes dimensiones)">
         			<Run.Foreground>
         				<SolidColorBrush Color="#FF141416">
         					<SolidColorBrush.RelativeTransform>

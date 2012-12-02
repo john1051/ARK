@@ -28,13 +28,26 @@
         <!--TitlePanel contiene el nombre de la aplicación y el título de la página-->
         <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
             <TextBlock x:Name="ApplicationTitle" Style="{StaticResource PhoneTextNormalStyle}" Text="ARk" Margin="0,0,24,0"/>
-            <TextBlock x:Name="Opciones" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}" TextAlignment="Center"><Run Text="Op"/><Run Text="c"/><Run Text="cione"/><Run Text="s"/></TextBlock>
+            <TextBlock x:Name="Opciones" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}" TextAlignment="Center"><Run Text="Opcione"/><Run Text="s"/></TextBlock>
         </StackPanel>
+        <Canvas Margin="12,0" Grid.Row="1">
+<!--ContentPanel. Colocar aquí el contenido adicional-->
+        	<Grid x:Name="ContentPanel" Height="535" Width="456">
+        		<TextBlock x:Name="configuracion" TextWrapping="Wrap" Text="Configuración de Alertas" VerticalAlignment="Top" Margin="115,30,115,0"/>
+        		<TextBlock x:Name="fecha" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Fecha" VerticalAlignment="Top" Margin="0,96,0,0"/>
+        		<TextBlock x:Name="hora" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Hora" Margin="0,251,0,257" d:LayoutOverrides="Height"/>
+        		<Viewbox Margin="0,123,16,0" Height="115" VerticalAlignment="Top">
+        			<TextBox x:Name="lstfecha" TextWrapping="Wrap" Height="101" Width="511"/>
+        		</Viewbox>
+        		<Viewbox Height="100" VerticalAlignment="Bottom" Margin="0,0,16,157">
+        			<TextBox x:Name="lsthora" TextWrapping="Wrap" BorderThickness="3" Width="448" Height="89"/>
+        		</Viewbox> </Grid>
+<!--ContentPanel. Colocar aquí el contenido adicional-->
+<!--ContentPanel. Colocar aquí el contenido adicional-->
+<!--ContentPanel. Colocar aquí el contenido adicional-->
+        </Canvas>
 
         <!--ContentPanel. Colocar aquí el contenido adicional-->
-        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
-        	<TextBox x:Name="Configuracion" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Configuracions" VerticalAlignment="Top" TextAlignment="Center"/>
-        	<TextBox x:Name="txtFecha" TextWrapping="Wrap" VerticalAlignment="Top" HorizontalAlignment="Left" BorderThickness="3" Margin="0,72,0,0" Text="Fecha"/> </Grid>
     </Grid>
  
     <!--Código de ejemplo que muestra el uso de ApplicationBar-->

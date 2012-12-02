@@ -138,5 +138,7 @@ namespace ARK
         }
 
         #endregion
+
+        public static string cadenaConexion { get; set; }
     }
 }

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-8859-1" ?>
-<!DOCTYPE rem:requirementsProject SYSTEM "C:\Program Files (x86)\REM 1.2.2\xml\REM_1_2_2.dtd">
+<!DOCTYPE rem:requirementsProject SYSTEM "D:\Archivos de programa\REM 1.2.2\xml\REM_1_2_2.dtd">
 <rem:requirementsProject
 xmlns:rem="http://rem.lsi.us.es">
 <rem:name>ARK</rem:name>
@@ -18,7 +18,7 @@ xmlns:rem="http://rem.lsi.us.es">
 Ninguno
 </rem:comments>
 	 <rem:preparedFor organizations = "ORG-0002 ORG-0004 "/>
-	 <rem:preparedBy organizations = "ORG-0001 ORG-0003 "/>
+	 <rem:preparedBy organizations = "ORG-0003 ORG-0001 "/>
 <rem:section
  oid = "SEC-0011">
 <rem:name>
@@ -420,16 +420,16 @@ Ninguno</rem:comments>
 <rem:level>3</rem:level>
 <rem:number>3.4.1 </rem:number>
 <rem:section
- oid = "SEC-0014">
+ oid = "SEC-0023">
 <rem:name>
-Inicio</rem:name>
+Prototipos</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2012</rem:year>
-<rem:month>9</rem:month>
-<rem:day>18</rem:day>
+<rem:month>12</rem:month>
+<rem:day>1</rem:day>
 </rem:date>
 </rem:version>
 <rem:authors stakeholders ="STK-0001 STK-0002 "/>
@@ -441,14 +441,14 @@ Ninguno</rem:comments>
 <rem:graphicFile
  oid = "GRF-0001">
 <rem:name>
-Inico</rem:name>
+Inicio</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2012</rem:year>
-<rem:month>10</rem:month>
-<rem:day>9</rem:day>
+<rem:month>12</rem:month>
+<rem:day>1</rem:day>
 </rem:date>
 </rem:version>
 <rem:authors stakeholders ="STK-0001 STK-0002 "/>
@@ -456,81 +456,40 @@ Inico</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:fileName>
-<![CDATA[.\Inico Ark.png]]>
+<![CDATA[.\Inicio.png]]>
 </rem:fileName>
 </rem:graphicFile>
-</rem:section>
-<rem:section
- oid = "SEC-0015">
-<rem:name>
-Options</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2012</rem:year>
-<rem:month>10</rem:month>
-<rem:day>9</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0002 "/>
-<rem:sources stakeholders ="STK-0001 STK-0002 "/>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:level>4</rem:level>
-<rem:number>3.4.1.2 </rem:number>
 <rem:graphicFile
  oid = "GRF-0002">
 <rem:name>
-Options</rem:name>
+Opciones</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2012</rem:year>
-<rem:month>10</rem:month>
-<rem:day>9</rem:day>
+<rem:month>12</rem:month>
+<rem:day>1</rem:day>
 </rem:date>
 </rem:version>
 <rem:authors stakeholders ="STK-0001 STK-0002 "/>
-<rem:sources stakeholders ="STK-0001 STK-0002 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:fileName>
-<![CDATA[.\options.png]]>
+<![CDATA[.\Opciones.png]]>
 </rem:fileName>
 </rem:graphicFile>
-</rem:section>
-<rem:section
- oid = "SEC-0016">
-<rem:name>
-Tools</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2012</rem:year>
-<rem:month>10</rem:month>
-<rem:day>9</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0002 "/>
-<rem:sources stakeholders ="STK-0001 STK-0002 "/>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:level>4</rem:level>
-<rem:number>3.4.1.3 </rem:number>
 <rem:graphicFile
  oid = "GRF-0003">
 <rem:name>
-Tools</rem:name>
+Herramientas</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2012</rem:year>
-<rem:month>10</rem:month>
-<rem:day>9</rem:day>
+<rem:month>12</rem:month>
+<rem:day>1</rem:day>
 </rem:date>
 </rem:version>
 <rem:authors stakeholders ="STK-0001 STK-0002 "/>
@@ -538,81 +497,20 @@ Tools</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:fileName>
-<![CDATA[.\tools.png]]>
+<![CDATA[.\Herramientas.png]]>
 </rem:fileName>
 </rem:graphicFile>
-</rem:section>
-<rem:section
- oid = "SEC-0017">
-<rem:name>
-Tape</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2012</rem:year>
-<rem:month>10</rem:month>
-<rem:day>9</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0002 "/>
-<rem:sources stakeholders ="STK-0001 STK-0002 "/>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:level>4</rem:level>
-<rem:number>3.4.1.4 </rem:number>
 <rem:graphicFile
  oid = "GRF-0004">
 <rem:name>
-Tape</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2012</rem:year>
-<rem:month>10</rem:month>
-<rem:day>9</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0002 "/>
-<rem:sources stakeholders ="STK-0001 STK-0002 "/>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:fileName>
-<![CDATA[.\tape.png]]>
-</rem:fileName>
-</rem:graphicFile>
-</rem:section>
-<rem:section
- oid = "SEC-0018">
-<rem:name>
 ARK</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2012</rem:year>
-<rem:month>10</rem:month>
-<rem:day>9</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0002 "/>
-<rem:sources stakeholders ="STK-0001 STK-0002 "/>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:level>4</rem:level>
-<rem:number>3.4.1.5 </rem:number>
-<rem:graphicFile
- oid = "GRF-0005">
-<rem:name>
-ARK</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2012</rem:year>
-<rem:month>10</rem:month>
-<rem:day>9</rem:day>
+<rem:month>12</rem:month>
+<rem:day>1</rem:day>
 </rem:date>
 </rem:version>
 <rem:authors stakeholders ="STK-0001 STK-0002 "/>
@@ -679,57 +577,9 @@ Ninguno</rem:comments>
 <rem:level>3</rem:level>
 <rem:number>4.1.1 </rem:number>
 <rem:functionalRequirement
- oid = "FRQ-0005">
-<rem:name>
-Seleccionar Tipo de Frase</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2012</rem:year>
-<rem:month>10</rem:month>
-<rem:day>16</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0002 "/>
-<rem:sources stakeholders ="STK-0003 "/>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:importance value = "IMV-0003"/>
-<rem:urgency value = "URV-0002"/>
-<rem:status value = "STV-0004"/>
-<rem:stability value = "SBV-0004"/>
-<rem:description>
-Permitir que el usuario elija las frases que desea recibir </rem:description>
-</rem:functionalRequirement>
-<rem:functionalRequirement
- oid = "FRQ-0001">
-<rem:name>
-Agregar Receta</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2012</rem:year>
-<rem:month>10</rem:month>
-<rem:day>16</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0002 "/>
-<rem:sources stakeholders ="STK-0003 "/>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:importance value = "IMV-0003"/>
-<rem:urgency value = "URV-0002"/>
-<rem:status value = "STV-0004"/>
-<rem:stability value = "SBV-0004"/>
-<rem:description>
-Permitir agregar los datos particulares de una receta</rem:description>
-</rem:functionalRequirement>
-<rem:functionalRequirement
  oid = "FRQ-0002">
 <rem:name>
-Editar </rem:name>
+Editar  Frase</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -753,7 +603,7 @@ Permitir que el usuario rescriba la frase o receta  que desea<br/></rem:descrip
 <rem:functionalRequirement
  oid = "FRQ-0003">
 <rem:name>
-Eliminar </rem:name>
+Eliminar  Frase</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -777,7 +627,7 @@ Permitir que el usuario borre las frases o las recetas que desee siempre y cuand
 <rem:functionalRequirement
  oid = "FRQ-0004">
 <rem:name>
-Añadir Frase</rem:name>
+Agregar Frase</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -821,30 +671,6 @@ Ninguno</rem:comments>
 <rem:stability value = "SBV-0004"/>
 <rem:description>
 Permitir  oraganizar la fecha y la hora acorde al envio de la frase</rem:description>
-</rem:functionalRequirement>
-<rem:functionalRequirement
- oid = "FRQ-0007">
-<rem:name>
-Encender o Apagar</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2012</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0002 "/>
-<rem:sources stakeholders ="STK-0001 STK-0002 "/>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:importance value = "IMV-0002"/>
-<rem:urgency value = "URV-0002"/>
-<rem:status value = "STV-0004"/>
-<rem:stability value = "SBV-0004"/>
-<rem:description>
-Dar la opcion al usuario para encender o apagar el sistema.</rem:description>
 </rem:functionalRequirement>
 </rem:section>
 </rem:section>
@@ -924,24 +750,6 @@ Hour</rem:description>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:specificData>
-<rem:specificData oid = "DAT-0008">
-<rem:description>
-Minute</rem:description>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:specificData>
-<rem:specificData oid = "DAT-0009">
-<rem:description>
-Second</rem:description>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:specificData>
-<rem:specificData oid = "DAT-0011">
-<rem:description>
-Type</rem:description>
-<rem:comments>
-ejemplo: amor,reflexion,amistad,recetas,despecho</rem:comments>
-</rem:specificData>
 <rem:specificData oid = "DAT-0010">
 <rem:description>
 State</rem:description>
@@ -970,41 +778,426 @@ Ninguno</rem:comments>
 </rem:section>
 </rem:section>
 <rem:section
- oid = "SEC-0009">
+ oid = "SEC-0021">
 <rem:name>
-Glosario</rem:name>
+Casos de Uso</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2012</rem:year>
-<rem:month>9</rem:month>
-<rem:day>18</rem:day>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:level>1</rem:level>
 <rem:number>5 </rem:number>
-<rem:glossaryItem
- oid = "GLO-0002">
+<rem:useCase
+ oid = "UC-0001">
 <rem:name>
-<rem:ref oid="GLO-0002">Pautas</rem:ref></rem:name>
+Agregar Frase</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2012</rem:year>
-<rem:month>9</rem:month>
-<rem:day>18</rem:day>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
 </rem:date>
 </rem:version>
 <rem:authors stakeholders ="STK-0001 STK-0002 "/>
 <rem:sources stakeholders ="STK-0001 STK-0002 "/>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Modelo,patrón:<br/>el jefe nos da las <rem:ref oid="GLO-0002">pautas</rem:ref> y nosotros desarrollamos los proyectos.<br/>Norma de conducta:<br/>la sinceridad es su pauta de comportamiento.</rem:text>
-</rem:glossaryItem>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0004"/>
+<rem:status value = "STV-0004"/>
+<rem:stability value = "SBV-0003"/>
+<rem:triggeringEvent>
+</rem:triggeringEvent>
+<rem:precondition>
+</rem:precondition>
+<rem:postcondition>
+La nueva frase quedara almacenada en la base de datos del sistema.</rem:postcondition>
+<rem:frequency>
+<rem:value>
+2
+</rem:value>
+<rem:timeUnit value = "TUV-0002"/>
+</rem:frequency>
+<rem:step oid = "STP-0044">
+<rem:number>1</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+solicita al sistema agregar</rem:description>
+</rem:actorAction>
+<rem:comments>
+el icono de agregar  es un lapiz</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0045">
+<rem:number>2</rem:number>
+<rem:systemAction>
+<rem:description>
+muestra  una ventana llamada herramientas </rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0046">
+<rem:number>3</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+solicita al sistema la opcion agregar frase</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0047">
+<rem:number>4</rem:number>
+<rem:systemAction>
+<rem:description>
+permite al usuario escribir la frase que desea almacenar</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0048">
+<rem:number>5</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+solicita al sistema guardar frase</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0049">
+<rem:number>6</rem:number>
+<rem:systemAction>
+<rem:description>
+alamcena la informacion</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0002">
+<rem:name>
+Editar frase</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>12</rem:month>
+<rem:day>1</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0004"/>
+<rem:stability value = "SBV-0004"/>
+<rem:triggeringEvent>
+</rem:triggeringEvent>
+<rem:precondition>
+</rem:precondition>
+<rem:postcondition>
+</rem:postcondition>
+<rem:frequency>
+<rem:value>
+2
+</rem:value>
+<rem:timeUnit value = "TUV-0002"/>
+</rem:frequency>
+<rem:step oid = "STP-0050">
+<rem:number>1</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+solcita al sistema agregar </rem:description>
+</rem:actorAction>
+<rem:comments>
+el icono de agregar es un lapiz</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0051">
+<rem:number>2</rem:number>
+<rem:systemAction>
+<rem:description>
+muestra una ventana llamada herramientas<br/></rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0052">
+<rem:number>3</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+solicita al sistema editar una fraase</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0053">
+<rem:number>4</rem:number>
+<rem:systemAction>
+<rem:description>
+muestra el contenido de la frase</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0054">
+<rem:number>5</rem:number>
+<rem:systemAction>
+<rem:description>
+permite al usuario editar la frase</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0055">
+<rem:number>6</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+modifica palabras del texto</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0056">
+<rem:number>7</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+solcita al sistema guardar los cambios realizados</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0057">
+<rem:number>8</rem:number>
+<rem:systemAction>
+<rem:description>
+alamcena la informacion</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0003">
+<rem:name>
+Eliminar frase</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>12</rem:month>
+<rem:day>1</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0004"/>
+<rem:stability value = "SBV-0004"/>
+<rem:triggeringEvent>
+</rem:triggeringEvent>
+<rem:precondition>
+</rem:precondition>
+<rem:postcondition>
+</rem:postcondition>
+<rem:frequency>
+<rem:value>
+2
+</rem:value>
+<rem:timeUnit value = "TUV-0002"/>
+</rem:frequency>
+<rem:step oid = "STP-0058">
+<rem:number>1</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+solcita al sistema la opcion agregar</rem:description>
+</rem:actorAction>
+<rem:comments>
+el icono de agregar  es un lapiz</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0059">
+<rem:number>2</rem:number>
+<rem:systemAction>
+<rem:description>
+muestra una ventana llamada herramientas<br/></rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0060">
+<rem:number>3</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+solcita eliminar la frase</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0061">
+<rem:number>4</rem:number>
+<rem:systemAction>
+<rem:description>
+elimina la frase solicitada</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0004">
+<rem:name>
+Configurar fecha y hora</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>12</rem:month>
+<rem:day>1</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0004"/>
+<rem:stability value = "SBV-0004"/>
+<rem:triggeringEvent>
+</rem:triggeringEvent>
+<rem:precondition>
+</rem:precondition>
+<rem:postcondition>
+</rem:postcondition>
+<rem:frequency>
+<rem:value>
+2
+</rem:value>
+<rem:timeUnit value = "TUV-0002"/>
+</rem:frequency>
+<rem:step oid = "STP-0062">
+<rem:number>1</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+solcita al sitema la opcion configurar</rem:description>
+</rem:actorAction>
+<rem:comments>
+el icono de configurar es un cuadro</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0063">
+<rem:number>2</rem:number>
+<rem:systemAction>
+<rem:description>
+muestra una ventana de configuracion</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0064">
+<rem:number>3</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+solcita al sistema la opcion configurar fecha y hora</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0065">
+<rem:number>4</rem:number>
+<rem:systemAction>
+<rem:description>
+permite al usuario digitar la fecha y la hora</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0066">
+<rem:number>5</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+solcita al sistema guardar la informacion</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0067">
+<rem:number>6</rem:number>
+<rem:systemAction>
+<rem:description>
+valida la informacion </rem:description>
+</rem:systemAction>
+<rem:comments>
+</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0068">
+<rem:number>7</rem:number>
+<rem:condition>
+el usuario ingresa letras en vez de numeros el sistema muestra una alerta diciendole que los datos ingresados no son correctos</rem:condition>
+<rem:systemAction>
+<rem:description>
+almacena la informacion </rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+</rem:section>
+<rem:section
+ oid = "SEC-0022">
+<rem:name>
+Actores</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0003 "/>
+<rem:sources stakeholders ="STK-0001 STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>1</rem:level>
+<rem:number>6 </rem:number>
+<rem:actor
+ oid = "ACT-0001">
+<rem:name>
+Usuario</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2012</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:sources stakeholders ="STK-0003 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:actorRole></rem:actorRole>
+</rem:actor>
 </rem:section>
 <rem:section
  oid = "SEC-0019">
@@ -1022,7 +1215,7 @@ Agradecimientos</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:level>1</rem:level>
-<rem:number>6 </rem:number>
+<rem:number>7 </rem:number>
 <rem:paragraph
  oid = "PRG-0004">
 <rem:name>
@@ -1061,445 +1254,6 @@ Autores</rem:name>
 Ninguno</rem:comments>
 <rem:text>Agradecimientos a todos los autores de The Noun Proyect, por sus disenos. Y permitirnos utilizarlas.<br/><br/>http://thenounproject.com/noun/notebook/#icon-No2222<br/>http://thenounproject.com/noun/sd-card/#icon-No3584<br/>http://thenounproject.com/noun/trash-can/#icon-No3058<br/>http://thenounproject.com/noun/heart/#icon-No5133<br/>http://thenounproject.com/noun/friends/#icon-No3359<br/>http://thenounproject.com/noun/spoon/#icon-No2519<br/>http://thenounproject.com/noun/broken-heart/#icon-No821<br/>http://thenounproject.com/noun/sad/#icon-No3028</rem:text>
 </rem:paragraph>
-</rem:section>
-<rem:section
- oid = "SEC-0021">
-<rem:name>
-Casos de Uso</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2012</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0002 "/>
-<rem:sources stakeholders ="STK-0003 "/>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:level>1</rem:level>
-<rem:number>7 </rem:number>
-<rem:useCase
- oid = "UC-0001">
-<rem:name>
-Agregar Receta</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2012</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0002 "/>
-<rem:sources stakeholders ="STK-0001 STK-0002 "/>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:importance value = "IMV-0003"/>
-<rem:urgency value = "URV-0004"/>
-<rem:status value = "STV-0004"/>
-<rem:stability value = "SBV-0003"/>
-<rem:triggeringEvent>
-</rem:triggeringEvent>
-<rem:precondition>
-</rem:precondition>
-<rem:postcondition>
-La nueva frase quedara almacenada en la base de datos del sistema.</rem:postcondition>
-<rem:frequency>
-<rem:tbd/>
-</rem:frequency>
-<rem:step oid = "STP-0016">
-<rem:number>1</rem:number>
-<rem:actorAction actor = "ACT-0001">
-<rem:description>
-Pedira al sistema agregar una nueva receta,<br/></rem:description>
-</rem:actorAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0019">
-<rem:number>2</rem:number>
-<rem:actorAction actor = "ACT-0001">
-<rem:description>
-Muestra diferentes opciones de recetas al usuario<br/></rem:description>
-</rem:actorAction>
-<rem:comments>
-Postres.<br/>Comidas Rapidas.<br/>Comidas Expeciales.<br/>Jugos.</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0020">
-<rem:number>3</rem:number>
-<rem:actorAction actor = "ACT-0001">
-<rem:description>
-Selecciona la opcion.</rem:description>
-</rem:actorAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0021">
-<rem:number>4</rem:number>
-<rem:systemAction>
-<rem:description>
-valida la opcion</rem:description>
-</rem:systemAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0022">
-<rem:number>5</rem:number>
-<rem:systemAction>
-<rem:description>
-guarda la receta.<br/></rem:description>
-</rem:systemAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-</rem:useCase>
-<rem:useCase
- oid = "UC-0002">
-<rem:name>
-Seleccionar Tipo de Frase</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2012</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0002 "/>
-<rem:sources stakeholders ="STK-0001 STK-0002 "/>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:importance value = "IMV-0002"/>
-<rem:urgency value = "URV-0002"/>
-<rem:status value = "STV-0004"/>
-<rem:stability value = "SBV-0004"/>
-<rem:triggeringEvent>
-</rem:triggeringEvent>
-<rem:precondition>
-</rem:precondition>
-<rem:postcondition>
-</rem:postcondition>
-<rem:frequency>
-<rem:tbd/>
-</rem:frequency>
-<rem:step oid = "STP-0017">
-<rem:number>1</rem:number>
-<rem:actorAction actor = "ACT-0001">
-<rem:description>
-cambiar el tipo de frase.</rem:description>
-</rem:actorAction>
-<rem:comments>
-</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0024">
-<rem:number>2</rem:number>
-<rem:systemAction>
-<rem:description>
-muestra diferentes tipos de frases.</rem:description>
-</rem:systemAction>
-<rem:comments>
-Amor<br/>Desamor<br/>Reflexion<br/>Amistad<br/>Recetas</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0025">
-<rem:number>3</rem:number>
-<rem:actorAction actor = "ACT-0001">
-<rem:description>
-Selecciona una opcion</rem:description>
-</rem:actorAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0026">
-<rem:number>4</rem:number>
-<rem:systemAction>
-<rem:description>
-valida la opcion</rem:description>
-</rem:systemAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0027">
-<rem:number>5</rem:number>
-<rem:systemAction>
-<rem:description>
-realiza el cambia</rem:description>
-</rem:systemAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-</rem:useCase>
-<rem:useCase
- oid = "UC-0003">
-<rem:name>
-Editar</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2012</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0002 "/>
-<rem:sources stakeholders ="STK-0001 STK-0002 "/>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:importance value = "IMV-0004"/>
-<rem:urgency value = "URV-0004"/>
-<rem:status value = "STV-0004"/>
-<rem:stability value = "SBV-0003"/>
-<rem:triggeringEvent>
-</rem:triggeringEvent>
-<rem:precondition>
-Que la frase o receta este almacenada.</rem:precondition>
-<rem:postcondition>
-La frase o receta se guardara en la base de datos del sistema, con su respectivos cambios.</rem:postcondition>
-<rem:frequency>
-<rem:tbd/>
-</rem:frequency>
-<rem:step oid = "STP-0028">
-<rem:number>1</rem:number>
-<rem:actorAction actor = "ACT-0001">
-<rem:description>
-Solicita al sistema editar.</rem:description>
-</rem:actorAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0030">
-<rem:number>2</rem:number>
-<rem:systemAction>
-<rem:description>
- le muestra las frases o recetas a editar.</rem:description>
-</rem:systemAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0031">
-<rem:number>3</rem:number>
-<rem:actorAction actor = "ACT-0001">
-<rem:description>
-Selecciona la frase o receta a editar.</rem:description>
-</rem:actorAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0032">
-<rem:number>4</rem:number>
-<rem:systemAction>
-<rem:description>
-habilita el editor.</rem:description>
-</rem:systemAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0033">
-<rem:number>5</rem:number>
-<rem:actorAction actor = "ACT-0001">
-<rem:description>
-rescribe o cambia la frase o la receta.</rem:description>
-</rem:actorAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0034">
-<rem:number>6</rem:number>
-<rem:systemAction>
-<rem:description>
-Guarda la frase o la receta</rem:description>
-</rem:systemAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-</rem:useCase>
-<rem:useCase
- oid = "UC-0004">
-<rem:name>
-Eliminar</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2012</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0002 "/>
-<rem:sources stakeholders ="STK-0001 STK-0002 "/>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:importance value = "IMV-0003"/>
-<rem:urgency value = "URV-0003"/>
-<rem:status value = "STV-0004"/>
-<rem:stability value = "SBV-0004"/>
-<rem:triggeringEvent>
-</rem:triggeringEvent>
-<rem:precondition>
-Que la frase o receta este almacenada.</rem:precondition>
-<rem:postcondition>
-</rem:postcondition>
-<rem:frequency>
-<rem:tbd/>
-</rem:frequency>
-<rem:step oid = "STP-0035">
-<rem:number>1</rem:number>
-<rem:actorAction actor = "ACT-0001">
-<rem:description>
-Solicita al sistema eliminar.</rem:description>
-</rem:actorAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0036">
-<rem:number>2</rem:number>
-<rem:systemAction>
-<rem:description>
- le muestra las frases o recetas a editar.</rem:description>
-</rem:systemAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0037">
-<rem:number>3</rem:number>
-<rem:actorAction actor = "ACT-0001">
-<rem:description>
-Selecciona la frase o receta a eliminar.</rem:description>
-</rem:actorAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0038">
-<rem:number>4</rem:number>
-<rem:systemAction>
-<rem:description>
-elimina la frase o receta de la base de datos.</rem:description>
-</rem:systemAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-</rem:useCase>
-<rem:useCase
- oid = "UC-0005">
-<rem:name>
-Configurar Fecha y Hora</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2012</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0002 "/>
-<rem:sources stakeholders ="STK-0001 STK-0002 "/>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:importance value = "IMV-0003"/>
-<rem:urgency value = "URV-0002"/>
-<rem:status value = "STV-0004"/>
-<rem:stability value = "SBV-0004"/>
-<rem:triggeringEvent>
-</rem:triggeringEvent>
-<rem:precondition>
-El sistema este encendido.</rem:precondition>
-<rem:postcondition>
-El sistema guardara los cambios.</rem:postcondition>
-<rem:frequency>
-<rem:tbd/>
-</rem:frequency>
-<rem:step oid = "STP-0039">
-<rem:number>1</rem:number>
-<rem:actorAction actor = "ACT-0001">
-<rem:description>
-Pedira al sistema configurar la fecha.</rem:description>
-</rem:actorAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0040">
-<rem:number>2</rem:number>
-<rem:systemAction>
-<rem:description>
-muestra las opciones.</rem:description>
-</rem:systemAction>
-<rem:comments>
-Dia<br/>Mes<br/>Año<br/>Hora</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0041">
-<rem:number>3</rem:number>
-<rem:actorAction actor = "ACT-0001">
-<rem:description>
-edita las opciones.</rem:description>
-</rem:actorAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0042">
-<rem:number>4</rem:number>
-<rem:systemAction>
-<rem:description>
-Valida los cambios.</rem:description>
-</rem:systemAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0043">
-<rem:number>5</rem:number>
-<rem:systemAction>
-<rem:description>
-Guarda los cambios.</rem:description>
-</rem:systemAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-</rem:useCase>
-</rem:section>
-<rem:section
- oid = "SEC-0022">
-<rem:name>
-Actores</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2012</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0003 "/>
-<rem:sources stakeholders ="STK-0001 STK-0002 "/>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:level>1</rem:level>
-<rem:number>8 </rem:number>
-<rem:actor
- oid = "ACT-0001">
-<rem:name>
-Usuario</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2012</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0002 "/>
-<rem:sources stakeholders ="STK-0003 "/>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:actorRole></rem:actorRole>
-</rem:actor>
 </rem:section>
 </rem:c_requirementsSpecification>
 <rem:d_requirementsSpecification oid = "DRS-0002">
@@ -1548,48 +1302,6 @@ Ninguno
 </rem:comments>
 </rem:changeRequestsSpecification>
 <rem:predefinedValueTypes>
-<rem:predefinedValueType
- oid = "PVT-0001">
-<rem:name>
-Real</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2000</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Predefined OCL type</rem:comments>
-<rem:description>
-Real numbers</rem:description>
-<rem:definition>
-(null)
-</rem:definition>
-</rem:predefinedValueType>
-<rem:predefinedValueType
- oid = "PVT-0002">
-<rem:name>
-Integer</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2000</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Predefined OCL type</rem:comments>
-<rem:description>
-Integer numbers</rem:description>
-<rem:definition>
-(null)
-</rem:definition>
-</rem:predefinedValueType>
 <rem:predefinedValueType
  oid = "PVT-0003">
 <rem:name>
@@ -1649,6 +1361,48 @@ Date</rem:name>
 Predefined OCL type (non-standard)</rem:comments>
 <rem:description>
 Dates</rem:description>
+<rem:definition>
+(null)
+</rem:definition>
+</rem:predefinedValueType>
+<rem:predefinedValueType
+ oid = "PVT-0001">
+<rem:name>
+Real</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Predefined OCL type</rem:comments>
+<rem:description>
+Real numbers</rem:description>
+<rem:definition>
+(null)
+</rem:definition>
+</rem:predefinedValueType>
+<rem:predefinedValueType
+ oid = "PVT-0002">
+<rem:name>
+Integer</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Predefined OCL type</rem:comments>
+<rem:description>
+Integer numbers</rem:description>
 <rem:definition>
 (null)
 </rem:definition>
@@ -1718,100 +1472,10 @@ Hour:minutes:seconds</rem:description>
 <rem:defectStatusValue oid = "DSV-0004">
 <rem:name>eliminado</rem:name>
 </rem:defectStatusValue>
-<rem:defectTypeValue oid = "DTV-0001">
-<rem:name>PD</rem:name>
+<rem:defectTypeValue oid = "DTV-0023">
+<rem:name>Otro</rem:name>
 <rem:description>
-<![CDATA[Por Determinar]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0002">
-<rem:name>Ambigüedad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos, aunque comprensibles, tienen más de una interpretación posible]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0003">
-<rem:name>No necesidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no son necesarios porque no contribuyen a satisfacer ninguna necesidad de clientes o usuarios]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0004">
-<rem:name>Incomprensibilidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no pueden ser entendidos por algún lector]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0005">
-<rem:name>No verificabilidad</rem:name>
-<rem:description>
-<![CDATA[No se puede comprobar que el sistema satisface el requisito o requisitos]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0006">
-<rem:name>Inconsistencia</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no son consistentes, es decir, presentan contradicciones internas o entre varios]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0007">
-<rem:name>No implementabilidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no pueden ser implementados con la tecnología actual o dentro de un coste razonable]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0008">
-<rem:name>Verbosidad excesiva</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos pueden expresarse de forma más concisa sin alterar su significado]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0009">
-<rem:name>Dependiente del diseño</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos incluyen elementos dependientes del diseño del sistema]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0010">
-<rem:name>Redundancia</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos son redundantes o contienen elementos redundantes]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0011">
-<rem:name>Imprecisión</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no se expresan de forma precisa, es decir, usando cantidades numéricas siempre que sea posible con el nivel adecuado de precisión]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0012">
-<rem:name>Incompleción</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no describen todo lo que el sistema se supone que deberá hacer, no describen las respuestas del sistema a todas las posibles situaciones o incluyen elementos por determinar (PD)]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0013">
-<rem:name>Prioridad no establecida</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no tienen establecida su prioridad, es decir, su importancia y su urgencia]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0014">
-<rem:name>Estabilidad no establecida</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no tienen estimada su estabilidad]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0015">
-<rem:name>Nivel incorrecto de detalle</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no están expresados con el nivel adecuado de detalle, es decir, son demasiado abstractos o demasiado detallados]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0016">
-<rem:name>No rastreabilidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no están trazados hacia sus orígenes, bien requisitos de nivel superior (objetivos), bien clientes y usuarios]]>
+<![CDATA[El requisito o requisitos presentan otro tipo de defecto]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0017">
@@ -1820,10 +1484,100 @@ Hour:minutes:seconds</rem:description>
 <![CDATA[El requisito o requisitos no están organizados correctamente según la normativa aplicada o el documento no contiene las secciones obligatorias]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0023">
-<rem:name>Otro</rem:name>
+<rem:defectTypeValue oid = "DTV-0016">
+<rem:name>No rastreabilidad</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos presentan otro tipo de defecto]]>
+<![CDATA[El requisito o requisitos no están trazados hacia sus orígenes, bien requisitos de nivel superior (objetivos), bien clientes y usuarios]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0015">
+<rem:name>Nivel incorrecto de detalle</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no están expresados con el nivel adecuado de detalle, es decir, son demasiado abstractos o demasiado detallados]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0014">
+<rem:name>Estabilidad no establecida</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no tienen estimada su estabilidad]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0013">
+<rem:name>Prioridad no establecida</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no tienen establecida su prioridad, es decir, su importancia y su urgencia]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0012">
+<rem:name>Incompleción</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no describen todo lo que el sistema se supone que deberá hacer, no describen las respuestas del sistema a todas las posibles situaciones o incluyen elementos por determinar (PD)]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0011">
+<rem:name>Imprecisión</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no se expresan de forma precisa, es decir, usando cantidades numéricas siempre que sea posible con el nivel adecuado de precisión]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0002">
+<rem:name>Ambigüedad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos, aunque comprensibles, tienen más de una interpretación posible]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0010">
+<rem:name>Redundancia</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos son redundantes o contienen elementos redundantes]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0009">
+<rem:name>Dependiente del diseño</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos incluyen elementos dependientes del diseño del sistema]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0008">
+<rem:name>Verbosidad excesiva</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos pueden expresarse de forma más concisa sin alterar su significado]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0007">
+<rem:name>No implementabilidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no pueden ser implementados con la tecnología actual o dentro de un coste razonable]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0001">
+<rem:name>PD</rem:name>
+<rem:description>
+<![CDATA[Por Determinar]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0006">
+<rem:name>Inconsistencia</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no son consistentes, es decir, presentan contradicciones internas o entre varios]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0005">
+<rem:name>No verificabilidad</rem:name>
+<rem:description>
+<![CDATA[No se puede comprobar que el sistema satisface el requisito o requisitos]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0004">
+<rem:name>Incomprensibilidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no pueden ser entendidos por algún lector]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0003">
+<rem:name>No necesidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no son necesarios porque no contribuyen a satisfacer ninguna necesidad de clientes o usuarios]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:importanceValue oid = "IMV-0001">
